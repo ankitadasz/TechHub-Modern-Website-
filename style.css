@@ -1,0 +1,78 @@
+*{
+   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+:root{
+    --primary-text-color:#183b56;
+    --secondary-text-color:#577592;
+    --accent-color:#2294ed;
+    --accent-color-dark:#1d69a3;
+    --padding-inline-section:20px;
+}
+body{
+    font-family: 'poppins',sans-serif;
+    color: var(--primary-text-color);
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-family: 'roboto', sans-serif;
+    font-size: 1.25rem;
+    color: var(--primary-text-color);
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+.smallboldtext{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.container{
+    max-width: 1180px;
+    padding-inline: var(--padding-inline-section);
+    margin-inline: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.bannertext{
+    text-align: center;
+    padding: 10px 30px;
+    color: #ffffff;
+   
+}
+.top-banner{
+    background-color: #4FB3D4;
+    width: 100%;
+    height: 44px;
+    background-image: url(assets/asset\ 28.png);
+}
+.main-nav{
+    margin-top: 20px;
+    justify-content:space-between ;
+}
+.companylogo img{
+    width: 200px;
+}
+.navlinks{
+  flex
+}
+.navlinks ul{
+    justify-content: end;
+    gap: 40px;
+}
